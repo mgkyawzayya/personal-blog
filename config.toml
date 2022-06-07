@@ -1,0 +1,43 @@
+baseURL = 'http://mgkyawzayya.github.com/'
+languageCode = "en-us"
+title = "Kyaw Zayya"
+theme = "hugo-ink"
+pygmentsCodeFences = true
+pygmentsStyle = "xcode"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[params]
+subtitle = "My Personal Blog"
+featherIconsCDN = true
+mode = "auto" # "dark" or "auto"
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/mgkyawzayya"
+
+
+[taxonomies]
+tag = "tags"
